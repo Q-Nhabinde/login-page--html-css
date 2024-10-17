@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html,body {
+    background-color: #f4f4f4;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #B9D183, #7DA662);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.intro{
+    font-size: 40px;
+    font-style: normal;
+    width: 350px;
+    font-weight: 400;
+    color:burlywood;
+    line-break: 40px;
+}
+
+.left-side {
+    height: 100%;
+    width: 40%;
+    background-color: #305e39;
+    color: #fff;
+    padding: 35px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.right-side {
+    flex: 1;
+    height: 100%;
+    width: 65%;
+    background-color: #ffffff;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-side h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.sign-up-form{
+    display:flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.sign-up-form input {
+    width: 450px;
+    gap : 50px;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid #181818;
+}
+
+.submit-btn {
+    width: 450px;
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #20c997;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #17a589;
+}
+
+.right-side p{
+    color: silver;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+.p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.right-side a {
+    color: #20c997;
+    text-decoration: none;
+}
+
+.right-side a:hover {
+    text-decoration: underline;
+}
